@@ -1,0 +1,14 @@
+# Secretos: nunca se suben
+.env
+.env.*
+
+# Dependencias y salidas
+node_modules/
+.vercel/
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+__pycache__/

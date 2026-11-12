@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oscar Guevara | Desarrollo de software</title>
+  <meta name="description" content="Portafolio de Oscar Fabricio Guevara Aguilar, estudiante de Ingeniería en Desarrollo de Software en UNIVO. Proyectos con TypeScript, Vue, Node y Python.">
+  <meta name="theme-color" content="#06090a">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Oscar Guevara | Desarrollo de software">
+  <meta property="og:description" content="Proyectos con TypeScript, Vue, Node y Python. Estudiante de Ingeniería en Desarrollo de Software en UNIVO.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2306090a'/%3E%3Cpath d='M7 9l8 7-8 7' fill='none' stroke='%233dff9a' stroke-width='3'/%3E%3Cpath d='M18 23h8' stroke='%23ff2e88' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#proyectos">Saltar al contenido</a>
+
+  <header class="bar">
+    <div class="wrap bar-in">
+      <a class="brand" href="#inicio">~/oscxr29</a>
+      <nav aria-label="Principal">
+        <ul class="nav">
+          <li><a href="#proyectos">proyectos</a></li>
+          <li><a href="#stack">stack</a></li>
+          <li><a href="#sobre-mi">sobre mí</a></li>
+          <li><a href="#contacto">contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap" id="inicio">
+      <div class="term">
+        <p class="line reveal" style="--d:.2s"><span class="ps">oscar@univo:~$</span> <span class="cmd" style="--n:6;--d:.2s">whoami</span></p>
+
+        <div class="out reveal" style="--d:.8s">
+          <h1>Oscar Fabricio Guevara Aguilar</h1>
+          <p class="lead">Estudiante de Ingeniería en Desarrollo de Software en UNIVO, ciclo IV. Hago apps web con TypeScript, Vue y Node, y practico estructuras de datos en Python.</p>
+        </div>
+
+        <p class="line reveal" style="--d:1.3s"><span class="ps">oscar@univo:~$</span> <span class="cmd" style="--n:14;--d:1.3s">ls proyectos/</span></p>
+
+        <ul class="out ls reveal" style="--d:1.9s">
+          <li><a href="#geomundo">geomundo/</a></li>
+          <li><a href="#esd">estructura-de-datos/</a></li>
+          <li><a href="#gsweb">servidores-web/</a></li>
+          <li><a href="#poo">biblioteca-poo/</a></li>
+        </ul>
+
+        <p class="line reveal" style="--d:2.2s"><span class="ps">oscar@univo:~$</span> <span class="cursor" aria-hidden="true"></span></p>
+      </div>
+    </section>
+
+    <section class="sec wrap" id="proyectos" aria-labelledby="t-proyectos">
+      <h2 id="t-proyectos">Proyectos</h2>
+      <p class="sec-intro">Cuatro proyectos de clase y de equipo. Cada uno enlaza a su repositorio en GitHub.</p>
+
+      <div class="projects">
+        <article class="proj proj-main" id="geomundo">
+          <header class="proj-bar"><span class="path">~/proyectos/geomundo</span><span class="lang">Vue</span></header>
+          <div class="proj-body">
+            <div class="proj-text">
+              <h3>GeoMundo</h3>
+              <p>App de geometría para niños de segundo grado, hecha en equipo para Programación Orientada a Objetos.</p>
+              <a class="repo" href="https://github.com/Oscxr29/GEOMUNDO_" target="_blank" rel="noopener">Ver repositorio en GitHub</a>
+            </div>
+            <dl class="kv">
+              <div><dt>tipo</dt><dd>Proyecto de equipo</dd></div>
+              <div><dt>frontend</dt><dd>Vue 3</dd></div>
+              <div><dt>backend</dt><dd>Node.js y TypeScript</dd></div>
+              <div><dt>datos</dt><dd>MySQL</dd></div>
+            </dl>
+          </div>
+        </article>
+
+        <article class="proj" id="esd">
+          <header class="proj-bar"><span class="path">~/proyectos/esd</span><span class="lang">Python</span></header>
+          <div class="proj-body">
+            <h3>Estructura de Datos</h3>
+            <p>Ejercicios de Estructura de Datos en Python. Incluye un simulador de caja de supermercado que usa colas, pilas y sets.</p>
+            <p class="tech"><span>usa</span> Python</p>
+            <a class="repo" href="https://github.com/Oscxr29/ESD-CICLOIV-2026" target="_blank" rel="noopener">Ver repositorio en GitHub</a>
+          </div>
+        </article>
+
+        <article class="proj" id="gsweb">
+          <header class="proj-bar"><span class="path">~/proyectos/gsweb</span><span class="lang">TypeScript</span></header>
+          <div class="proj-body">
+            <h3>Servidores Web</h3>
+            <p>Servicios hechos con Node, Express y TypeScript, desplegados en Windows Server con IIS y NSSM.</p>
+            <p class="tech"><span>usa</span> Node.js, Express, TypeScript, IIS, NSSM</p>
+            <a class="repo" href="https://github.com/Oscxr29/GSWEB-CICLOIV-2026" target="_blank" rel="noopener">Ver repositorio en GitHub</a>
+          </div>
+        </article>
+
+        <article class="proj" id="poo">
+          <header class="proj-bar"><span class="path">~/proyectos/poo</span><span class="lang">TypeScript</span></header>
+          <div class="proj-body">
+            <h3>Préstamos de biblioteca</h3>
+            <p>Sistema de préstamos de biblioteca en TypeScript para Programación Orientada a Objetos. Maneja los eventos con EventEmitter.</p>
+            <p class="tech"><span>usa</span> TypeScript, EventEmitter</p>
+            <a class="repo" href="https://github.com/Oscxr29/POO-Ciclo3" target="_blank" rel="noopener">Ver repositorio en GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="sec wrap" id="stack" aria-labelledby="t-stack">
+      <h2 id="t-stack">Stack</h2>
+      <p class="sec-intro">Lo que uso en mis proyectos. No pongo barras de nivel: prefiero que veas el código.</p>
+
+      <dl class="kv kv-wide">
+        <div><dt>lenguajes</dt><dd>HTML, CSS, JavaScript, TypeScript, Python</dd></div>
+        <div><dt>frontend</dt><dd>Vue 3</dd></div>
+        <div><dt>backend</dt><dd>Node.js, Express</dd></div>
+        <div><dt>datos</dt><dd>MySQL</dd></div>
+        <div><dt>despliegue</dt><dd>Windows Server (IIS, NSSM), Vercel</dd></div>
+        <div><dt>herramientas</dt><dd>Git, GitHub, VS Code, Jupyter Notebook</dd></div>
+      </dl>
+    </section>
+
+    <section class="sec wrap" id="sobre-mi" aria-labelledby="t-sobre">
+      <h2 id="t-sobre">Sobre mí</h2>
+      <div class="prose">
+        <p>Voy en el segundo año de la carrera. Casi todo lo que hay en mi GitHub nació en clase, pero cada vez construyo más cosas por mi cuenta.</p>
+        <p>Me muevo entre el frontend (HTML, CSS, TypeScript) y el lado del servidor: este ciclo desplegué servicios Node en Windows Server. Las estructuras de datos las practico en Python.</p>
+        <p>Fuera de clase retomé Xonotic, un shooter open source. Le ajusto la configuración gráfica y estoy armando un servidor propio con bots. Lo hago más por nostalgia que por otra cosa, pero termina siendo práctica de configuración y pruebas.</p>
+        <p>Lo que sigue es meterme más a fondo con la inteligencia artificial: no solo usarla, sino entender cómo se construyen cosas con ella.</p>
+      </div>
+    </section>
+
+    <section class="sec wrap" id="contacto" aria-labelledby="t-contacto">
+      <h2 id="t-contacto">Contacto</h2>
+      <p class="sec-intro">Puedes escribirme por correo o LinkedIn. Mi código está en GitHub.</p>
+
+      <dl class="kv kv-wide contact">
+        <div><dt>github</dt><dd><a href="https://github.com/Oscxr29" target="_blank" rel="noopener">github.com/Oscxr29</a></dd></div>
+        <div><dt>linkedin</dt><dd><a href="https://www.linkedin.com/in/oscar-guevara-a05b7644a/" target="_blank" rel="noopener">linkedin.com/in/Oscar Guevara</a></dd></div>
+      </dl>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot-in">
+      <p>© 2026 Oscar Fabricio Guevara Aguilar</p>
+      <p>Hecho a mano con HTML, CSS y un poco de JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
